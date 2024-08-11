@@ -25,9 +25,11 @@ continueBtn.onclick = () => {
     main.classList.remove('active');
     quizBox.classList.add('active');
 
-    showQuestions(0)
+    showQuestions(0);
+    questionsCounter(1);
 }
  let questionsCount = 0;
+ let questionNumb = 1;
 
  const nextBtn = document.querySelector('.next-btn');
 
@@ -35,6 +37,10 @@ continueBtn.onclick = () => {
     if (questionsCount < questions.length - 1){
     questionsCount++;
     showQuestions(questionsCount);
+     
+    questionNumb++;
+    questionsCounter(questionNumb);
+
     }
     else {
         console.log('Question Completed');
@@ -54,4 +60,11 @@ continueBtn.onclick = () => {
     <div class="option"><span>${questions[index].options[3]}</span></div>';
  
     optionList.innerHTML = optionTag;
+
+    const option = document.querySelectorAll('option');
+    for (let 1 = 0; i < option.length; i++) {
+        option[i].setAttribute('onclick' , 'optionselected (this)');
+    }
 }
+
+  
