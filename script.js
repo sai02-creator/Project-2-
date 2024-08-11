@@ -28,6 +28,13 @@ continueBtn.onclick = () => {
     showQuestions(0)
 }
  let questionsCount = 0;
+
+ const nextBtn = document.querySelector('.next-btn');
+
+ nextBtn.onclick = () => {
+    questionsCount++;
+    showQuestions(questionsCount);
+ }
  
  //getting questions and options from array 
  function showQuestions(index) {
