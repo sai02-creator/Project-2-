@@ -69,14 +69,20 @@ continueBtn.onclick = () => {
 function optionSelected(answer) {
     let userAnswer = answer.textContent;
     let correctAnswer = questions[questionCount].answer;
+    let allOptions = optionList.children.length;
      
     if(userAnswer =correctAnswer){
        console.log('answer is correct');
+       answer.classList.add('correct');
     }
     else {
-        console.log('answer is wrong');
+        answer.classList.add('incorrect');
     }
     
+    //if user had selected disabled all options 
+    for (let i = 0 ; i < allOptions; i++) {
+        optionList.children[i].classList.add('disabled');
+    }
 }  
  
 function questionsCounter(index) {
