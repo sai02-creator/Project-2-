@@ -54,17 +54,16 @@ continueBtn.onclick = () => {
     const questionText = document.querySelector(.question-text);
     questionText.textContent = '${questions[index].numb}. ${questions[index].question}';
 
-    let optionTag = '<div class="option"><span>${questions[index].options[0]}</span></div>
-    <div class="option"><span>${questions[index].options[1]}</span></div>
-    <div class="option"><span>${questions[index].options[2]}</span></div>
-    <div class="option"><span>${questions[index].options[3]}</span></div>';
- 
+    let optionTag = `<div class="option"><span>${questions[index].options[0]}</span></div>
+        <div class="option"><span>${questions[index].options[1]}</span></div>
+        <div class="option"><span>${questions[index].options[2]}</span></div>
+        <div class="option"><span>${questions[index].options[3]}</span></div>`;
     optionList.innerHTML = optionTag;
 
-    const option = document.querySelectorAll('option');
-    for (let 1 = 0; i < option.length; i++) {
-        option[i].setAttribute('onclick' , 'optionselected (this)');
-    }
 }
-
+ 
+function questionsCounter(index) {
+    const questionTotal = document.querySelector('.question-total');
+    questionTotal.textContent = '${index} of ${questions.length} Questions';
+}
   
