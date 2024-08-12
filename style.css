@@ -49,7 +49,7 @@ body {
 }
 .main {
   min-height: 100vh;
-  background: url(blue\ .jpg) no-repeat;
+  background: url(cube\ .jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   pointer-events: auto;
@@ -262,6 +262,12 @@ body {
 .option-list .option:hover {
   background: rgba(255, 255, 255, 0.1);
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.option-list .option.correct {
+  background: #09001d;
+  color: #00a63d;
+  border-color: #00a63d;
 }
 
 .quiz-box .quiz-footer {
