@@ -69,7 +69,14 @@ continueBtn.onclick = () => {
 function optionSelected(answer) {
     let userAnswer = answer.textContent;
     let correctAnswer = questions[questionCount].answer;
-    console.log(correctAnswer);
+     
+    if(userAnswer =correctAnswer){
+       console.log('answer is correct');
+    }
+    else {
+        console.log('answer is wrong');
+    }
+    
 }  
  
 function questionsCounter(index) {
