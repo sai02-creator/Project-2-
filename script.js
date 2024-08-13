@@ -48,6 +48,7 @@ continueBtn.onclick = () => {
     }
     else {
         console.log('Question Completed');
+        showresultBox();
     }
  }
 
