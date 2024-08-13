@@ -27,6 +27,7 @@ continueBtn.onclick = () => {
 
     showQuestions(0);
     questionsCounter(1);
+    headerScore();
 }
  let questionsCount = 0;
  let questionNumb = 1;
@@ -41,6 +42,8 @@ continueBtn.onclick = () => {
      
     questionNumb++;
     questionsCounter(questionNumb);
+
+    nextBtn.classList.remove('active');
 
     }
     else {
@@ -75,6 +78,8 @@ function optionSelected(answer) {
     if(userAnswer =correctAnswer){
        console.log('answer is correct');
        answer.classList.add('correct');
+       userScore += 1;
+       headerScore();
     }
     else {
         answer.classList.add('incorrect');
@@ -102,3 +107,6 @@ function questionsCounter(index) {
     const headerScoreText = document.querySelector('.header-score');
     headerScoreText.textContent = 'Score: ${userScore} / ${questions.length}';
  } 
+ function showresultBox(){
+    quizBox.classList.remove('active');
+ }
