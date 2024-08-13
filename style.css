@@ -389,3 +389,7 @@ body {
   background: transparent;
   color: #c40094;
 }
+.buttons button:nth-child(2):hover {
+  background: #c40094;
+  color: #fff;
+}
