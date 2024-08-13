@@ -309,7 +309,7 @@ body {
   transition: 0.5s;
 }
 
-.quiz-footer .next-btn:hover {
+.quiz-footer .next-btn.active:hover {
   background: #950170;
   border-color: #950170;
 }
@@ -319,4 +319,11 @@ body {
   background: #c40094;
   border-color: #c40094;
   color: #fff;
+}
+
+.quiz-section .result-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
