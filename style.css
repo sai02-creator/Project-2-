@@ -340,4 +340,7 @@ body {
   font-size: 52px;
 }
 
-.result-box .;
+.result-box .percentage-container {
+  width: 300px;
+  background: seagreen;
+}
