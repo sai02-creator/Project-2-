@@ -402,3 +402,11 @@ body {
   background: #c40094;
   color: #fff;
 }
+.percentage-container .circular-progress::before {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background: #09001d;
+  border-radius: 50%;
+}
