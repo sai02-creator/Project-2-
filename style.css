@@ -276,6 +276,10 @@ body {
   border-color: #a60045;
 }
 
+.option-list .option.disabled {
+  pointer-events: none;
+}
+
 .quiz-box .quiz-footer {
   display: flex;
   justify-content: space-between;
@@ -301,11 +305,18 @@ body {
   color: rgba(255, 255, 255, 0.3);
   font-weight: 600;
   cursor: pointer;
-  /*pointer-events: none;*/
+  pointer-events: none;
   transition: 0.5s;
 }
 
 .quiz-footer .next-btn:hover {
   background: #950170;
   border-color: #950170;
+}
+
+.quiz-footer .next-btn.active {
+  pointer-events: auto;
+  background: #c40094;
+  border-color: #c40094;
+  color: #fff;
 }
