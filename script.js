@@ -30,6 +30,7 @@ continueBtn.onclick = () => {
 }
  let questionsCount = 0;
  let questionNumb = 1;
+ let userScore = 0;
 
  const nextBtn = document.querySelector('.next-btn');
 
@@ -77,11 +78,18 @@ function optionSelected(answer) {
     }
     else {
         answer.classList.add('incorrect');
+
+        // if answer is incorrect. auto selected correct answer 
+        for (let i = 0 ; i < allOptions; i++) {
+            optionList.children[i].classList.add('disabled');
+        }
     }
     
-    //if user had selected disabled all options 
+    //if user had selected, disabled all options 
     for (let i = 0 ; i < allOptions; i++) {
-        optionList.children[i].classList.add('disabled');
+        if (optionList.children[i].textContent == correctAnswer){
+            optionList.children[i].setAttribute('class','option correct');
+        }
     }
 }  
  
@@ -89,4 +97,8 @@ function questionsCounter(index) {
     const questionTotal = document.querySelector('.question-total');
     questionTotal.textContent = '${index} of ${questions.length} Questions';
 }
-  
+ 
+ function headerScore(){
+    const headerScoreText = document.querySelector('.header-score');
+    headerScoreText.textContent = 'Score: ${userScore} / ${questions.length}';
+ } 
