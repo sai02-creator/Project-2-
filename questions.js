@@ -1,57 +1,57 @@
- let questions = [
+let questions = [
     {
-numb: 1,
-questions:"what does HTML stand for?",
-answers:"c. Hyper Text Markup Language",
-options:[
-    "A. Hyper Text Multi Language",
-    "B. Hyper Text Multiple Language",
-    "C. Hyper Text Markup Language",
-    "D. Home Text Multi Language "
-
-]
+        numb: 1,
+        question: "What country has the most islands in the world?",
+        answer: "C. Sweden",
+        options: [
+            "A. Austraila",
+            "B. India",
+            "C. Sweden",
+            "D. United States"
+        ]
     },
     {
         numb: 2,
-        questions:"What does CSS stand for?",
-        answers:"A. Cascading Style Sheet",
-        options:[
-        "A. Cascading Style Sheet",
-        "B. Cute Style Sheet",
-        "C. Computer Style Sheet",
-        "D. Codehal Style Sheet"
+        question: "What’s the smallest country in the world? ",
+        answer: "A. The Vatican",
+        options: [
+            "A. The Vatican",
+            "B. Bangladesh",
+            "C. Srilanka",
+            "D. Nepal"
         ]
-            },{
-                numb: 3,
-                questions:"What does PHP stand for?",
-                answers:"A. Hypertext Preprocessor",
-                options:[
-                    "A. Hypertext Preprocessor",
-                    "B. Hometext Programming",
-                    "C. Hypertext Preprogrammig",
-                    "D. Programming Hypertext Preprocessor"
-                
-                ]
-                    },{
-                        numb: 4,
-                        questions:"What does SQL stand for?",
-                        answers:"D. Structured Query Language",
-                        options:[
-                        "A. Strength Query Language",
-                        "B. Stylesheet Query Language",
-                        "C. Science Question Language",
-                        "D. Structured Query Language"
-                        ]
-                            },{
-                                numb: 5,
-                                questions:"What does XML stand for?",
-                                answers:"D. Extensible Markup Language",
-                                options:[
-                                    "A. Excellent Multiple Language",
-                                    "B. Explorre Multiple Language",
-                                    "C. Extra Markup Language",
-                                    "D. Extensible Markup Language"
-                                
-                                ]
-                            }
- ];
+    },
+    {
+        numb: 3,
+        question: "What’s the capital of Canada",
+        answer: "A. Ottawa",
+        options: [
+            "A. Ottawa",
+            "B. Toronto",
+            "C. Vancouver",
+            "D. Quebec City"
+        ]
+    },
+    {
+        numb: 4,
+        question: "Name the largest (not highest) mountain range in the world?",
+        answer: "D. The Andes",
+        options: [
+            "A. Kangchenjunga",
+            "B. Mount kilimanjaro",
+            "C. Mount Everest",
+            "D. The Andes"
+        ]
+    },
+    {
+        numb: 5,
+        question: "Name the longest river in the world?",
+        answer: "D. The Nile",
+        options: [
+            "A. Amazon River",
+            "B. Yangtze River",
+            "C. Parana River",
+            "D. The Nile"
+        ]
+    }
+];

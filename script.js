@@ -142,7 +142,7 @@ function showResultBox() {
 
     const scoreText = document.querySelector('.score-text');
     scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`;
-
+//change the progress bar to something else
     const circularProgress = document.querySelector('.circular-progress');
     const progressValue = document.querySelector('.progress-value');
     let progressStartValue = -1;
