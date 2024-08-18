@@ -143,20 +143,22 @@ function showResultBox() {
     const scoreText = document.querySelector('.score-text');
     scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`;
 //change the progress bar to something else
-    const circularscore = document.querySelector('.circular-score');
-    const scoreValue = document.querySelector('.score-value');
-    let scoreStartValue = -1;
-    let scoreEndValue = (userScore / questions.length) * 100;
-    let speed = 20;
+    
 
-    let score = setInterval(() => {
-        scoreStartValue++;
+const circularscore = document.querySelector('.circular-score');
+const scoreValue = document.querySelector('.score-value');
+let scoreStartValue = -1;
+let scoreEndValue = (userScore / questions.length) * 100;
+let speed = 20;
 
-        scoreValue.textContent = `${scoreStartValue}%`;
-        circularscore.style.background = `conic-gradient(#c40094 ${scoreStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+let score = setInterval(() => {
+    scoreStartValue++;
 
-        if (scoreStartValue == scoreEndValue) {
-            clearInterval(score);
-        }
-    }, speed);
+    scoreValue.textContent = `${scoreStartValue}%`;
+    circularscore.style.background = `conic-gradient(#c40094 ${scoreStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+
+    if (scoreStartValue == scoreEndValue) {
+        clearInterval(score);
+    }
+}, speed);
 }
