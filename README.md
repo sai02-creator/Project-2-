@@ -10,7 +10,9 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 
 ### Dependencies
 
-- This is accessible with every os like Windows,Mac,Linux
+- This can be accessed on any operating system, including Windows,Mac and Linux
+- This can run in any web browser like Chrome,Safari,Firefox and Opra
+- This can be used without any specific OS requirements
 
 ### How to run
 
