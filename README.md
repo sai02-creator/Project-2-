@@ -1,34 +1,31 @@
 # Project Title
 
-Simple overview of use/purpose.
+Quiz Website
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This website provides a variety of World Geography quizzes, allowing users to explore and expand their knowledge of countries, capitals, cities, landmarks, and other global features. It's a fun and educational platform for geography enthusiasts of all levels.
 
 ## Getting Started
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+- This is accessible with every os like Windows,Mac,Linux
 
-### Installing
+### How to run
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
-
-### How to run 
-
-- How to run the program
-- Step-by-step bullets
+- This quiz contains five questions.
+- Please choose the correct answer .
+- Click next after selecting the answer .
+- You cannot cancel the answer once you choose it
+- You can see the score after finishing all five questions
 
 ```
 code blocks for commands
 ```
 
+## Testing
 
-## Testing 
 Contributors names and contact info
 
 ex. Dominique Pizzie  
@@ -45,4 +42,3 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
