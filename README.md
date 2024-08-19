@@ -22,10 +22,6 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 - You cannot cancel the answer once you choose it
 - You can see the score after finishing all five questions
 
-```
-code blocks for commands
-```
-
 ## Testing
 
 Contributors names and contact info
