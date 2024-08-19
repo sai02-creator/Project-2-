@@ -22,20 +22,17 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 - You cannot cancel the answer once you choose it
 - You can see the score after finishing all five questions
 
-## Testing
+## 📸 Screenshots
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+![quiz1](Screenshot 2024-08-20 at 12.27.30 AM.png)
+![quiz2](Screenshot 2024-08-20 at 12.15.02 AM.png)
+![quiz3](Screenshot 2024-08-20 at 12.15.21 AM.png)
+![quiz4](Screenshot 2024-08-20 at 12.15.31 AM.png)
+![quiz5](Screenshot 2024-08-20 at 12.15.45 AM.png)
 
 ## Deployment
 
-- 0.2
-  - Various bug fixes and optimizations
-  - See [commit change]() or See [release history]()
-- 0.1
-  - Initial Release
+- Use Github pages for deployment [Github pages](https://github.com/sai02-creator/Project-2-/deployments/github-pages)
 
 ## License
 
