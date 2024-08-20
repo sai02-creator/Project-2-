@@ -24,7 +24,7 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 
 ## 📸 Testing
 
-![quiz1](./images/Screenshot%202024-08-20%20at%201.24.57 AM.png)
+![quiz1](./images/Screenshot%202024-08-20%20at%2011.54.51 PM.png)
 ![]
 
 ## Deployment
