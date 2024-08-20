@@ -22,9 +22,10 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 - You cannot cancel the answer once you choose it
 - You can see the score after finishing all five questions
 
-## 📸 Screenshots
+## 📸 Testing
 
 ![quiz1](./images/Screenshot%202024-08-20%20at%201.24.57 AM.png)
+![]
 
 ## Deployment
 
