@@ -32,6 +32,10 @@ These are few screenshots how the quiz works
 ![quiz4](./images/Screenshot%202024-08-20%20at%2011.55.18 PM.png)
 ![quiz5](./images/Screenshot%202024-08-20%20at%2011.55.31 PM.png)
 
+- The HTML files have passed the validity checks using [W3C](https://validator.w3.org/)
+  ![validity1](./images/Screenshot%202024-09-07%20at%2012.28.11 AM.png)
+  ![validity2](./images/Screenshot%202024-09-07%20at%2012.28.25 AM.png)
+
 ## Deployment
 
 - Use [Github pages](https://github.com/sai02-creator/Project-2-/deployments/github-pages) for deployment
