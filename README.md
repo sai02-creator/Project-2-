@@ -6,6 +6,12 @@ Quiz Website
 
 This website provides a variety of World Geography quizzes, allowing users to explore and expand their knowledge of countries, capitals, cities, landmarks, and other global features. It's a fun and educational platform for geography enthusiasts of all levels.
 
+- This quiz contains five questions.
+- Please choose the correct answer .
+- Click next after selecting the answer .
+- You cannot cancel the answer once you choose it
+- You can see the score after finishing all five questions
+
 ## Getting Started
 
 ### Dependencies
@@ -13,14 +19,6 @@ This website provides a variety of World Geography quizzes, allowing users to ex
 - This can be accessed on any operating system, including Windows,Mac and Linux
 - This can run in any web browser like Chrome,Safari,Firefox and Opra
 - This can be used without any specific OS requirements
-
-### How to run
-
-- This quiz contains five questions.
-- Please choose the correct answer .
-- Click next after selecting the answer .
-- You cannot cancel the answer once you choose it
-- You can see the score after finishing all five questions
 
 ## 📸 Testing
 
