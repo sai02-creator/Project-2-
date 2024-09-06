@@ -27,6 +27,7 @@ These are few screenshots how the quiz works
 - The website was tested on chrome browser
 
 ![quiz1](./images/Screenshot%202024-08-20%20at%2011.54.51 PM.png)
+![quiz2](./images/Screenshot%202024-08-20%20at%2011.54.59 PM.png)
 
 ## Deployment
 
