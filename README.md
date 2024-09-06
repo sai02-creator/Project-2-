@@ -34,7 +34,7 @@ These are few screenshots how the quiz works
 
 ## Deployment
 
-- Use Github pages for deployment [Github pages](https://github.com/sai02-creator/Project-2-/deployments/github-pages)
+- Use [Github pages](https://github.com/sai02-creator/Project-2-/deployments/github-pages) for deployment
 
 ## License
 
