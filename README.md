@@ -28,6 +28,9 @@ These are few screenshots how the quiz works
 
 ![quiz1](./images/Screenshot%202024-08-20%20at%2011.54.51 PM.png)
 ![quiz2](./images/Screenshot%202024-08-20%20at%2011.54.59 PM.png)
+![quiz3](./images/Screenshot%202024-08-20%20at%2011.55.08 PM.png)
+![quiz4](./images/Screenshot%202024-08-20%20at%2011.55.18 PM.png)
+![quiz5](./images/Screenshot%202024-08-20%20at%2011.55.31 PM.png)
 
 ## Deployment
 
