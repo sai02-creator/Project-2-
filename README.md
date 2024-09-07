@@ -36,6 +36,12 @@ These are few screenshots how the quiz works
   ![validity1](./images/Screenshot%202024-09-07%20at%2012.28.11 AM.png)
   ![validity2](./images/Screenshot%202024-09-07%20at%2012.28.25 AM.png)
 
+- The website has been tested for performance, accessibility, best practice, and SEO using [https://pagespeed.web.dev/](https://pagespeed.web.dev/).
+  ![performance1](./images/Screenshot%202024-09-08%20at%201.12.06 AM.png)
+  ![performance2](./images/Screenshot%202024-09-08%20at%201.12.24 AM.png)
+  ![performance3](./images/Screenshot%202024-09-08%20at%201.12.33 AM.png)
+  ![performance4](./images/Screenshot%202024-09-08%20at%201.12.48 AM.png)
+
 ## Deployment
 
 - The site was deployed to github pages. In the github repository navigate to settings tab From the source section drop-down menu, select the Main Branch, then click "Save". - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
