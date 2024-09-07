@@ -38,6 +38,10 @@ These are few screenshots how the quiz works
 
 ## Deployment
 
+- The site was deployed to github pages. In the github repository navigate to settings tab From the source section drop-down menu, select the Main Branch, then click "Save". - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- Live link can be found [here](https://sai02-creator.github.io/Project-2-/)
+
 - Use [Github pages](https://github.com/sai02-creator/Project-2-/deployments/github-pages) for deployment
 
 ## License
