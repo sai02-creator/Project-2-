@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -39,18 +39,18 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  /*margin-left: 35px;*/
+  margin-left: 35px;
   transition: 0.3s;
 }
 
 .navbar a:hover,
 .navbar a.active {
-  color: #26890d;
+  color: #c40094;
 }
 
 .main {
   min-height: 100vh;
-  background: url("./images/black2.avif") no-repeat;
+  background: url("background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   pointer-events: auto;
@@ -100,11 +100,11 @@ body {
 .home-content .start-btn {
   width: 190px;
   height: 55px;
-  background: #26890d;
+  background: #c40094;
   border: 2px solid #fff;
   outline: none;
   border-radius: 6px;
-  box-shadow: 0 0 10px #26890d;
+  box-shadow: 0 0 10px #c40094;
   font-size: 18px;
   color: #fff;
   letter-spacing: 1px;
@@ -140,7 +140,7 @@ body {
 
 .popup-info h2 {
   font-size: 50px;
-  color: #26890d;
+  color: #c40094;
 }
 
 .popup-info .info {
@@ -166,8 +166,8 @@ body {
   align-items: center;
   width: 130px;
   height: 45px;
-  background: #26890d;
-  border: 2px solid #26890d;
+  background: #c40094;
+  border: 2px solid #c40094;
   outline: none;
   border-radius: 6px;
   text-decoration: none;
@@ -181,17 +181,17 @@ body {
 
 .popup-info .btn-group .info-btn:nth-child(1) {
   background: transparent;
-  color: #26890d;
+  color: #c40094;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1):hover {
-  background: #26890d;
+  background: #c40094;
   color: #fff;
 }
 
 .popup-info .btn-group .info-btn:nth-child(2):hover {
-  background: #166f00;
-  border-color: #166f00;
+  background: #950170;
+  border-color: #950170;
 }
 
 .quiz-section {
@@ -215,7 +215,7 @@ body {
   position: relative;
   width: 500px;
   background: transparent;
-  border: 2px solid #26890d;
+  border: 2px solid #c40094;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -238,7 +238,7 @@ body {
 .quiz-box h1 {
   font-size: 32px;
   text-align: center;
-  background: linear-gradient(45deg, transparent, #26890d, transparent);
+  background: linear-gradient(45deg, transparent, #c40094, transparent);
   border-radius: 6px;
 }
 
@@ -247,7 +247,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 2px solid #26890d;
+  border-bottom: 2px solid #c40094;
   margin-bottom: 30px;
 }
 
@@ -257,7 +257,7 @@ body {
 }
 
 .quiz-header .header-score {
-  background: #26890d;
+  background: #c40094;
   border-radius: 3px;
   padding: 7px;
 }
@@ -304,7 +304,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #26890d;
+  border-top: 2px solid #c40094;
   padding-top: 20px;
   margin-top: 25px;
 }
@@ -331,14 +331,14 @@ body {
 
 .quiz-footer .next-btn.active {
   pointer-events: auto;
-  background: #26890d;
-  border-color: #26890d;
+  background: #c40094;
+  border-color: #c40094;
   color: #fff;
 }
 
 .quiz-footer .next-btn.active:hover {
-  background: #00a63d;
-  border-color: #00a63d;
+  background: #950170;
+  border-color: #950170;
 }
 
 .quiz-section .result-box {
@@ -348,7 +348,7 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
   width: 500px;
   background: transparent;
-  border: 2px solid #26890d;
+  border: 2px solid #c40094;
   border-radius: 6px;
   padding: 20px;
   display: flex;
@@ -377,18 +377,18 @@ body {
   margin: 20px 0 40px;
 }
 
-.percentage-container .circular-score {
+.percentage-container .circular-progress {
   position: relative;
   width: 250px;
   height: 250px;
-  background: conic-gradient(#26890d 3.6deg, rgba(255, 255, 255, 0.1) 0deg);
+  background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, 0.1) 0deg);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.percentage-container .circular-score::before {
+.percentage-container .circular-progress::before {
   content: "";
   position: absolute;
   width: 210px;
@@ -397,7 +397,7 @@ body {
   border-radius: 50%;
 }
 
-.circular-score .score-value {
+.circular-progress .progress-value {
   position: relative;
   font-size: 45px;
   font-weight: 600;
@@ -416,8 +416,8 @@ body {
 .buttons button {
   width: 130px;
   height: 47px;
-  background: #26890d;
-  border: 2px solid #26890d;
+  background: #c40094;
+  border: 2px solid #c40094;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
@@ -429,16 +429,16 @@ body {
 }
 
 .buttons button:nth-child(1):hover {
-  background: #00a63d;
-  border-color: #00a63d;
+  background: #950170;
+  border-color: #950170;
 }
 
 .buttons button:nth-child(2) {
   background: transparent;
-  color: #26890d;
+  color: #c40094;
 }
 
 .buttons button:nth-child(2):hover {
-  background: #26890d;
+  background: #c40094;
   color: #fff;
 }
