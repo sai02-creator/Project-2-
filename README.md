@@ -1,6 +1,6 @@
 # Project Title
 
-Quiz Websites
+Quiz Website
 
 ## Description
 
