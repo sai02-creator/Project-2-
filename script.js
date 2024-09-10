@@ -145,7 +145,7 @@ function showResultBox() {
 
     
 
-const circularprogress = document.querySelector('.circular-score');
+const circularscore = document.querySelector('.circular-score');
 const scoreValue = document.querySelector('.score-value');
 let scoreStartValue = -1;
 let scoreEndValue = (userScore / questions.length) * 100;
