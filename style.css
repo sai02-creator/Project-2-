@@ -377,7 +377,7 @@ body {
   margin: 20px 0 40px;
 }
 
-.percentage-container .circular-progress {
+.percentage-container .circular-score {
   position: relative;
   width: 250px;
   height: 250px;
@@ -388,7 +388,7 @@ body {
   align-items: center;
 }
 
-.percentage-container .circular-progress::before {
+.percentage-container .circular-score::before {
   content: "";
   position: absolute;
   width: 210px;
@@ -397,7 +397,7 @@ body {
   border-radius: 50%;
 }
 
-.circular-progress .progress-value {
+.circular-score .score-value {
   position: relative;
   font-size: 45px;
   font-weight: 600;
