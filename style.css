@@ -45,7 +45,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: #c40094;
+  color: #26890d;
 }
 
 .main {
@@ -100,11 +100,11 @@ body {
 .home-content .start-btn {
   width: 190px;
   height: 55px;
-  background: #c40094;
+  background: #26890d;
   border: 2px solid #fff;
   outline: none;
   border-radius: 6px;
-  box-shadow: 0 0 10px #c40094;
+  box-shadow: 0 0 10px #26890d;
   font-size: 18px;
   color: #fff;
   letter-spacing: 1px;
@@ -140,7 +140,7 @@ body {
 
 .popup-info h2 {
   font-size: 50px;
-  color: #c40094;
+  color: #26890d;
 }
 
 .popup-info .info {
@@ -166,8 +166,8 @@ body {
   align-items: center;
   width: 130px;
   height: 45px;
-  background: #c40094;
-  border: 2px solid #c40094;
+  background: #26890d;
+  border: 2px solid #26890d;
   outline: none;
   border-radius: 6px;
   text-decoration: none;
@@ -181,17 +181,17 @@ body {
 
 .popup-info .btn-group .info-btn:nth-child(1) {
   background: transparent;
-  color: #c40094;
+  color: #26890d;
 }
 
 .popup-info .btn-group .info-btn:nth-child(1):hover {
-  background: #c40094;
+  background: #26890d;
   color: #fff;
 }
 
 .popup-info .btn-group .info-btn:nth-child(2):hover {
-  background: #950170;
-  border-color: #950170;
+  background: #105100;
+  border-color: #105100;
 }
 
 .quiz-section {
@@ -215,7 +215,7 @@ body {
   position: relative;
   width: 500px;
   background: transparent;
-  border: 2px solid #c40094;
+  border: 2px solid #26890d;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -238,7 +238,7 @@ body {
 .quiz-box h1 {
   font-size: 32px;
   text-align: center;
-  background: linear-gradient(45deg, transparent, #c40094, transparent);
+  background: linear-gradient(45deg, transparent, #26890d, transparent);
   border-radius: 6px;
 }
 
@@ -247,7 +247,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 2px solid #c40094;
+  border-bottom: 2px solid #26890d;
   margin-bottom: 30px;
 }
 
@@ -257,7 +257,7 @@ body {
 }
 
 .quiz-header .header-score {
-  background: #c40094;
+  background: #26890d;
   border-radius: 3px;
   padding: 7px;
 }
@@ -304,7 +304,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #c40094;
+  border-top: 2px solid #26890d;
   padding-top: 20px;
   margin-top: 25px;
 }
@@ -331,14 +331,14 @@ body {
 
 .quiz-footer .next-btn.active {
   pointer-events: auto;
-  background: #c40094;
-  border-color: #c40094;
+  background: #26890d;
+  border-color: #26890d;
   color: #fff;
 }
 
 .quiz-footer .next-btn.active:hover {
-  background: #950170;
-  border-color: #950170;
+  background: #105100;
+  border-color: #105100;
 }
 
 .quiz-section .result-box {
@@ -348,7 +348,7 @@ body {
   transform: translate(-50%, -50%) scale(0.9);
   width: 500px;
   background: transparent;
-  border: 2px solid #c40094;
+  border: 2px solid #26890d;
   border-radius: 6px;
   padding: 20px;
   display: flex;
@@ -381,7 +381,7 @@ body {
   position: relative;
   width: 250px;
   height: 250px;
-  background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, 0.1) 0deg);
+  background: conic-gradient(#26890d 3.6deg, rgba(255, 255, 255, 0.1) 0deg);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -416,8 +416,8 @@ body {
 .buttons button {
   width: 130px;
   height: 47px;
-  background: #c40094;
-  border: 2px solid #c40094;
+  background: #26890d;
+  border: 2px solid #26890d;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
@@ -429,16 +429,16 @@ body {
 }
 
 .buttons button:nth-child(1):hover {
-  background: #950170;
-  border-color: #950170;
+  background: #105100;
+  border-color: #105100;
 }
 
 .buttons button:nth-child(2) {
   background: transparent;
-  color: #c40094;
+  color: #26890d;
 }
 
 .buttons button:nth-child(2):hover {
-  background: #c40094;
+  background: #26890d;
   color: #fff;
 }
